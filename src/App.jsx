@@ -18,6 +18,7 @@ function App() {
          <div className='home-left'>
         <h1 className='heading-home'>Hi I'm Kamma Somasekhar</h1>
         <h3 >Software Developer</h3>
+        
         <p>
           Aspiring Software Development Engineer (SDE) with a strong foundation in Data Structures & Algorithms,
           Java, ReactJS, and MySQL. Passionate about solving real-world problems through efficient code. Actively
