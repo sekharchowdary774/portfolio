@@ -3,9 +3,10 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: rgb(14, 14, 170);
+  background-color: rgb(0, 0, 0);
   color: white;
-  
+  font-family: "Inter", sans-serif;
+  line-height: 1.4;
 }
 
 .app {
@@ -20,9 +21,9 @@ body {
   top: 0;
   left: 0;
   width: 97%;
-  z-index: 1000; /* Ensure it's above other content */
-  background-color: transparent; /* Optional: slight transparency */
-  backdrop-filter: blur(10px);          /* Optional: blur effect */
+  z-index: 1000; 
+  background-color:rgb(4, 39, 44) ;
+  /* backdrop-filter: blur(10px);           */
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
@@ -30,20 +31,20 @@ body {
   
 }
 .navbar li{
-  color: rgb(117, 0, 128);
+  color:white;
   
   font-size: 20px;
 }
 .navbar a {
   text-decoration: none;  /* removes underline */
-  color: violet;   
+  color: white;   
   transition: color 0.3s ease;        /* or white / desired color */
 }
 .navbar a:hover {
-  color: rgb(105, 133, 255); /* or any highlight color */
+  color: rgb(18, 103, 129); /* or any highlight color */
 }
 .logo {
-  color: violet;
+  color: white;
   font-weight: bold;
 }
 
@@ -60,31 +61,31 @@ body {
   cursor: pointer;
   color: rgb(138, 138, 231);
 }
-.aboutme{
+/* .aboutme{
  text-align: left;
  margin: 20px;
  padding-top: 70px;
  padding-left: 10px;
  padding-right: 500px;
-}
-.info{
+} */
+/* .info{
   padding-top: 300px;
-  
-}
-.header{
+  background-color:rgb(3, 41, 53) ;
+} */
+/* .header{
   padding-top: 0px;
-    background-color: black;
+    background-color: rgb(3, 41, 53);
     padding-bottom: 100px;
 }
 .header h1{
-    color:green
+    color: rgb(29, 125, 155);
 }
 .header-contact{
   
   text-align: center;
 }
 .header-contact h2{
-  color: green;
+  color: rgb(36, 120, 146);
 }
 .image-row {
   display: flex;
@@ -100,7 +101,7 @@ body {
   
   
   
-}
+} */
 .home
 {
   padding-top:230px;
@@ -110,6 +111,8 @@ body {
      align-items:center;
 justify-content:space-between;
 -webkit-text-fill-color:white ;
+font-family: "Inter", sans-serif;
+line-height: 1.4;
 }
 
 .home-left{
@@ -117,14 +120,14 @@ justify-content:space-between;
     text-align:left;
    padding-left:100px;
    }
-   .heading-home h3{
-    color: green;
+   .home h2{
+    -webkit-text-fill-color:rgb(28, 123, 151);
    }
    .home button{
     margin: 20px;
     padding: 10px;
     width: 150px;
-    background-color: rgb(255, 0, 179);
+    background-color:rgb(28, 123, 151);
     color:black;
    }
    .home-image{
@@ -141,7 +144,7 @@ justify-content:space-between;
     text-align:left;
     font-size:25px;
    font-weight:bold;
-   -webkit-text-fill-color:rgb(12, 104, 50);
+   color: white;
    
    }
    .image

@@ -17,7 +17,7 @@ function App() {
       <section id="home" className='home'>
          <div className='home-left'>
         <h1 className='heading-home'>Hi I'm Kamma Somasekhar</h1>
-        <h3 >Software Developer</h3>
+        <h2>Software Developer</h2>
         
         <p>
           Aspiring Software Development Engineer (SDE) with a strong foundation in Data Structures & Algorithms,
@@ -43,6 +43,9 @@ function App() {
         <a href="https://www.linkedin.com/in/kamma-somasekhar-24ba272b8/" target="_blank" rel="noopener noreferrer" >
         <img src='/images/linked.png' width="80px" height="40px"/>
         </a>
+        <a href="https://github.com/sekharchowdary774" target="_blank"  rel="noopener noreferrer" width="80px" height="40px">
+           <img src="/images/git.png" alt="GitHub" />
+          </a>
         </div>
         </div>
         <img className="image" src="/images/hero.jpeg" alt='home' width="500px" height="400px"/>
