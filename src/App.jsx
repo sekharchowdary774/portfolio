@@ -19,6 +19,10 @@ function App() {
         <h1 className='heading-home'>Hi I'm Kamma Somasekhar</h1>
         <h3 >Software Developer</h3>
         <p>
+          Aspiring Software Development Engineer (SDE) with a strong foundation in Data Structures & Algorithms,
+          Java, ReactJS, and MySQL. Passionate about solving real-world problems through efficient code. Actively
+          building projects, learning new technologies, and collaborating in team environments. Always eager to
+          innovate and contribute to impactful software solutions.
           I'm a dynamic professional with a knack of blending creativety and art of problem solving.
           Outside of my day-to-day work, I am deeply interested in Frontend,DSA,java ,python and SQL.
         </p>
@@ -51,6 +55,9 @@ function App() {
           I'm a passionate and self-driven developer with a strong interest in building modern, responsive web applications.
           I enjoy combining elegant front-end design with solid logic and performance.
           I'm also actively sharpening my problem-solving skills through Data Structures and Algorithms in Java and Python.
+           I'm a dynamic professional with a knack of blending creativety and art of problem solving.
+          Outside of my day-to-day work, I am deeply interested in Frontend,DSA,java ,python and SQL.
+       
           <br /><br />
         Currently focused on becoming a Software developer and working on personal projects that solve real problems.
         </p>
