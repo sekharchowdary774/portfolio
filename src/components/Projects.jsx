@@ -15,7 +15,7 @@ const projectsData = [
 
 function Projects() {
   return (
-    <div> 
+    <div className="project-container"> 
       <div className="project">
         {projectsData.map((project, index) => (
           <div key={index} className="project-card" >
@@ -34,6 +34,7 @@ function Projects() {
               View Live
             </a>
           </div>
+          
         ))}
       </div>
     </div>

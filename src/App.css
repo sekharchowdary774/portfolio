@@ -72,13 +72,18 @@ body {
   padding-top: 300px;
   background-color:rgb(3, 41, 53) ;
 } */
-/* .header{
+ .header{
   padding-top: 0px;
     background-color: rgb(3, 41, 53);
     padding-bottom: 100px;
 }
 .header h1{
-    color: rgb(29, 125, 155);
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+} 
+.header h1 span{
+  color: #00bfff;
 }
 .header-contact{
   
@@ -101,7 +106,7 @@ body {
   
   
   
-} */
+} 
 .home
 {
   padding-top:230px;
@@ -123,21 +128,34 @@ line-height: 1.4;
    .home h2{
     -webkit-text-fill-color:rgb(28, 123, 151);
    }
+   .button-group{
+    display: flex;
+    justify-content: center;
+     gap: 15px;
+    margin-top: 10px;
+     
+   }
    .home button{
+    
     margin: 20px;
     padding: 10px;
     width: 150px;
     background-color:rgb(28, 123, 151);
     color:black;
+    border: none;               /* Remove border */
+     outline: none; 
    }
    .home-image{
      display:flex;
      flex-direction:row;
+     font-size: 20px;
      align-items:center;
      -webkit-text-fill-color:white ;
       border-radius: 100%;
        gap: 20px;
+        transition: 0.3s ease;
    }
+   
     .heading-home
    {
     font-family:ubuntu;

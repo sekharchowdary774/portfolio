@@ -19,9 +19,7 @@ function ContactForm() {
         <textarea placeholder="Your Message" required></textarea>
         <button type="submit">Submit</button>
       </form>
-      {submitted && (
-        <p className="success-message">Thank you! Your message has been sent. ✅</p>
-      )}
+      
     </div>
   );
 }

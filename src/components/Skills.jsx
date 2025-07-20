@@ -46,6 +46,7 @@ const skills=[
 ]
 function Skills() {
   return (
+    <div className='skills-container'>
     <div className="skill">
         {skills.map((skill, index) => (
           <div key={index} className="skill_head">
@@ -59,6 +60,7 @@ function Skills() {
             <h3>{skill.title}</h3>  
             </div>
         ))}
+    </div>
     </div>
   );
 }

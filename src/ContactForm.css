@@ -61,3 +61,25 @@ button {
 button:hover {
   background-color: #009acd;
 }
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 15px;
+  }
+
+  .input-box {
+    flex-direction: column;
+  }
+
+  .input-box input {
+    width: 100%;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button-group button {
+    width: 100%;
+  }
+}

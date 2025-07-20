@@ -27,12 +27,14 @@ function App() {
           I'm a dynamic professional with a knack of blending creativety and art of problem solving.
           Outside of my day-to-day work, I am deeply interested in Frontend,DSA,java ,python and SQL.
         </p>
+        <div className='button-group'>
         <a href="mailto:sekharkamma5@gmail.com"  >
         <button>Hire me</button>
         </a>
         <a href="/sekhar_resume.pdf" download>
         <button>Download Cv</button>
         </a>
+        </div>
         <div className='home-image'>
           <a href='https://leetcode.com/u/sekhar__12/' target="_blank" rel="noopener noreferrer">
         <img src='/images/leetcode.png ' width="80px" height="40px"/>
@@ -43,16 +45,16 @@ function App() {
         <a href="https://www.linkedin.com/in/kamma-somasekhar-24ba272b8/" target="_blank" rel="noopener noreferrer" >
         <img src='/images/linked.png' width="80px" height="40px"/>
         </a>
-        <a href="https://github.com/sekharchowdary774" target="_blank"  rel="noopener noreferrer" width="80px" height="40px">
-           <img src="/images/git.png" alt="GitHub" />
-          </a>
+        <a href="https://github.com/sekharchowdary774" target="_blank" rel="noopener noreferrer" >
+        <img src='/images/git.png' width="80px" height="40px"/>
+        </a>        
         </div>
         </div>
         <img className="image" src="/images/hero.jpeg" alt='home' width="500px" height="400px"/>
       </section>
       <div className='info'>
         <div className='header'>
-          <h1 id="about" >About me</h1>
+          <h1 id="about" >About<span> me!</span></h1>
           <img  src="/images/hero.jpeg" alt='home' width="300px" height="260px"/>
         
         <p>

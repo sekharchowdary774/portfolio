@@ -8,6 +8,7 @@ function Portfolio() {
   const [activeSection, setActiveSection] = useState("home");
 
   return (
+      <div className="main-container">
       <div id="portfolio" className="portfolio">
         <div className="btn">
         <button onClick={() => setActiveSection("skills")} >Skills</button>
@@ -18,6 +19,7 @@ function Portfolio() {
       {activeSection === "skills" && <Skills/>}
       {activeSection === "projects" && <Projects />}
       {activeSection === "certificates" && <Certificates />}
+    </div>
     </div>
   );
 }
