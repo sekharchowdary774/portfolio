@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+}
+.show{
+    text-align: center;
+}
+.show h2{
+  color: green;
+}
+.portfolio{
+  padding-bottom: 60px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.btn button{
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  background-color: rgb(137, 30, 151);
+  border: none;
+}

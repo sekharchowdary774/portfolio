@@ -1,0 +1,85 @@
+
+.certificates-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+
+
+.certificate-image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.certificate-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.75rem;
+}
+
+.certificate-issuer {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.certificate-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #1e40af;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+.skill{
+  display: flex;
+  
+}
+.skill_head{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.project{
+  display: flex;
+  justify-content: center;
+}
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ⬅️ This ensures everything inside is centered */
+}
+
+.projects-image{
+  margin:50px;
+  padding: 10px;
+  width: 300px;
+  height: 230px;
+}
+.project h3,a{
+  text-align: center;
+}
+.live-button {
+  display: inline-block;
+  margin-top: 0px;
+  padding: 10px;
+  
+  background-color: #9ddfe4;
+  
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.live-button:hover {
+  background-color: #0056b3;
+}
